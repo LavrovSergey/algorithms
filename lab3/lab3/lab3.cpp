@@ -371,7 +371,7 @@ int main()
 	while (true)
 	{
 		cin >> operation;
-		if (operation == "addsection")
+		if (operation == "addteam")
 		{
 			string team_name;
 			int players_count;
@@ -387,7 +387,7 @@ int main()
 			}
 			splay_tree.insert(new_team);
 		}
-		else if (operation == "insertgoods")
+		else if (operation == "insertplayers")
 		{
 			string team_name;
 			cin >> team_name;
