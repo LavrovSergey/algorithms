@@ -43,12 +43,12 @@ private:
     vector<Player> players;
 };
 
-std::ostream& operator<<(std::ostream& out, const Team& tream)
+std::ostream& operator<<(std::ostream& out, const Team& team)
 {
-    if (tream.name.length() != 0)
+    if (team.name.length() != 0)
     {
-        out << " " << tream.name << " { ";
-        for (const auto a : tream.players)
+        out << " " << team.name << " { ";
+        for (const auto a : team.players)
         {
             out << a.get_name() + " ";
         }
