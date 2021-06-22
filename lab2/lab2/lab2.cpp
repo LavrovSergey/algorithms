@@ -536,7 +536,7 @@ int main()
             string team_name;
             cin >> team_name;
             Team temp(team_name);
-            cout << my_tree.search(temp) << endl;
+            cout << my_tree.search(temp);
         }
         else if (operation == "erase")
         {
